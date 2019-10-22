@@ -1,4 +1,4 @@
-from odoo from models, fields, api, _
+from odoo import models, fields, api, _
 
 class Author(models.Model):
     _name = "library.author"
