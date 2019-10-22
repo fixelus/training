@@ -10,7 +10,6 @@ class Customer(models.Model):
     _description = "customer"
     
     name = fields.Text(required=True, string="Customer Name")
-    type = fields.selection()
     
     address = fields.Text()
     phone = fields.Text()
